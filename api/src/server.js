@@ -1,7 +1,4 @@
 import app from "./app.js";
+import productRoutes from "./routes/productRoutes.js";
 
-const PORT = process.env.PORT || 3001;
-
-app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
-});
+app.use("/products", productRoutes);

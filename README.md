@@ -1,10 +1,10 @@
-Sistema de Monitoramento e Processamento de Logs (Node.js)
+#Sistema de Monitoramento e Processamento de Logs (Node.js)
 
 Este projeto contém dois serviços:
 
-API
+---
 
-Responsável por:
+##API - Responsável por:
 
 Receber logs via HTTP
 
@@ -12,9 +12,9 @@ Salvar no banco
 
 Fornecer endpoints para dashboard e métricas
 
-Worker
+---
 
-Responsável por:
+##Worker - Responsável por:
 
 Processar logs em background
 
